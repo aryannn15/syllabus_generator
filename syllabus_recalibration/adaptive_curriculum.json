@@ -1,0 +1,405 @@
+{
+  "metadata": {
+    "source": "output/topic_analysis.json",
+    "total_hours": 45,
+    "included_topic_count": 20,
+    "min_percentage": 0.5,
+    "method": "Prerequisite-aware ordering plus PYQ/Bloom/confidence weighted hour allocation"
+  },
+  "modules": [
+    {
+      "module": "Algorithm Foundations",
+      "total_hours": 13.75,
+      "average_importance": 7.04,
+      "difficulty_score": 2.66,
+      "difficulty_level": "Moderate",
+      "topics": [
+        "Algorithm Basics",
+        "Time Complexity",
+        "Asymptotic Notation",
+        "Recurrence Relations",
+        "Algorithm Correctness"
+      ]
+    },
+    {
+      "module": "Linear Data Structures",
+      "total_hours": 10.0,
+      "average_importance": 5.89,
+      "difficulty_score": 1.94,
+      "difficulty_level": "Easy",
+      "topics": [
+        "Arrays",
+        "Linked List",
+        "Stack",
+        "Queue"
+      ]
+    },
+    {
+      "module": "Searching And Sorting",
+      "total_hours": 5.0,
+      "average_importance": 2.59,
+      "difficulty_score": 2.16,
+      "difficulty_level": "Easy",
+      "topics": [
+        "Bubble Sort",
+        "Complexity Analysis (sorting-specific)",
+        "Insertion Sort"
+      ]
+    },
+    {
+      "module": "Trees",
+      "total_hours": 11.0,
+      "average_importance": 6.74,
+      "difficulty_score": 2.46,
+      "difficulty_level": "Moderate",
+      "topics": [
+        "Binary Trees",
+        "Heap",
+        "Tree Traversals",
+        "BST"
+      ]
+    },
+    {
+      "module": "Graphs",
+      "total_hours": 4.0,
+      "average_importance": 1.45,
+      "difficulty_score": 1.69,
+      "difficulty_level": "Easy",
+      "topics": [
+        "Dijkstra",
+        "DFS",
+        "Minimum Spanning Tree"
+      ]
+    },
+    {
+      "module": "Hashing",
+      "total_hours": 1.25,
+      "average_importance": 0.51,
+      "difficulty_score": 0.64,
+      "difficulty_level": "Easy",
+      "topics": [
+        "Hash Functions"
+      ]
+    }
+  ],
+  "curriculum_sequence": [
+    {
+      "order": 1,
+      "topic": "Algorithm Basics",
+      "module": "Algorithm Foundations",
+      "allocated_hours": 1.5,
+      "percentage_weight": 2.14,
+      "importance_level": "Low",
+      "cognitive_level": 1.67,
+      "difficulty_score": 1.23,
+      "difficulty_level": "Easy",
+      "prerequisites": [],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 2,
+      "topic": "Time Complexity",
+      "module": "Algorithm Foundations",
+      "allocated_hours": 3.75,
+      "percentage_weight": 11.05,
+      "importance_level": "Very High",
+      "cognitive_level": 2.38,
+      "difficulty_score": 2.57,
+      "difficulty_level": "Moderate",
+      "prerequisites": [
+        "Algorithm Basics"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Worked examples, implementation traces, and guided problem solving"
+    },
+    {
+      "order": 3,
+      "topic": "Asymptotic Notation",
+      "module": "Algorithm Foundations",
+      "allocated_hours": 2.5,
+      "percentage_weight": 5.64,
+      "importance_level": "Medium",
+      "cognitive_level": 2.75,
+      "difficulty_score": 2.49,
+      "difficulty_level": "Moderate",
+      "prerequisites": [
+        "Time Complexity"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Worked examples, implementation traces, and guided problem solving"
+    },
+    {
+      "order": 4,
+      "topic": "Recurrence Relations",
+      "module": "Algorithm Foundations",
+      "allocated_hours": 4.5,
+      "percentage_weight": 14.22,
+      "importance_level": "Very High",
+      "cognitive_level": 2.55,
+      "difficulty_score": 3.37,
+      "difficulty_level": "Hard",
+      "prerequisites": [
+        "Time Complexity",
+        "Asymptotic Notation"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Proofs, traces, comparative problems, and exam-style analysis"
+    },
+    {
+      "order": 5,
+      "topic": "Algorithm Correctness",
+      "module": "Algorithm Foundations",
+      "allocated_hours": 1.5,
+      "percentage_weight": 2.15,
+      "importance_level": "Low",
+      "cognitive_level": 3.07,
+      "difficulty_score": 2.47,
+      "difficulty_level": "Moderate",
+      "prerequisites": [
+        "Algorithm Basics"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Worked examples, implementation traces, and guided problem solving"
+    },
+    {
+      "order": 6,
+      "topic": "Arrays",
+      "module": "Linear Data Structures",
+      "allocated_hours": 2.5,
+      "percentage_weight": 5.52,
+      "importance_level": "Medium",
+      "cognitive_level": 2.31,
+      "difficulty_score": 1.92,
+      "difficulty_level": "Easy",
+      "prerequisites": [],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 7,
+      "topic": "Linked List",
+      "module": "Linear Data Structures",
+      "allocated_hours": 1.75,
+      "percentage_weight": 2.54,
+      "importance_level": "Low",
+      "cognitive_level": 1.0,
+      "difficulty_score": 0.99,
+      "difficulty_level": "Easy",
+      "prerequisites": [
+        "Arrays"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 8,
+      "topic": "Stack",
+      "module": "Linear Data Structures",
+      "allocated_hours": 3.5,
+      "percentage_weight": 10.19,
+      "importance_level": "Very High",
+      "cognitive_level": 2.57,
+      "difficulty_score": 2.57,
+      "difficulty_level": "Moderate",
+      "prerequisites": [
+        "Arrays"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Worked examples, implementation traces, and guided problem solving"
+    },
+    {
+      "order": 9,
+      "topic": "Queue",
+      "module": "Linear Data Structures",
+      "allocated_hours": 2.25,
+      "percentage_weight": 5.31,
+      "importance_level": "Medium",
+      "cognitive_level": 1.92,
+      "difficulty_score": 1.73,
+      "difficulty_level": "Easy",
+      "prerequisites": [
+        "Arrays"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 10,
+      "topic": "Bubble Sort",
+      "module": "Searching And Sorting",
+      "allocated_hours": 2.0,
+      "percentage_weight": 3.87,
+      "importance_level": "Medium",
+      "cognitive_level": 2.67,
+      "difficulty_score": 1.91,
+      "difficulty_level": "Easy",
+      "prerequisites": [
+        "Arrays",
+        "Time Complexity"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 11,
+      "topic": "Complexity Analysis (sorting-specific)",
+      "module": "Searching And Sorting",
+      "allocated_hours": 1.5,
+      "percentage_weight": 1.96,
+      "importance_level": "Low",
+      "cognitive_level": 3.0,
+      "difficulty_score": 2.24,
+      "difficulty_level": "Moderate",
+      "prerequisites": [
+        "Time Complexity"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 12,
+      "topic": "Insertion Sort",
+      "module": "Searching And Sorting",
+      "allocated_hours": 1.5,
+      "percentage_weight": 1.94,
+      "importance_level": "Low",
+      "cognitive_level": 4.0,
+      "difficulty_score": 2.4,
+      "difficulty_level": "Moderate",
+      "prerequisites": [
+        "Arrays",
+        "Time Complexity"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Worked examples, implementation traces, and guided problem solving"
+    },
+    {
+      "order": 13,
+      "topic": "Binary Trees",
+      "module": "Trees",
+      "allocated_hours": 5.0,
+      "percentage_weight": 15.87,
+      "importance_level": "Very High",
+      "cognitive_level": 2.1,
+      "difficulty_score": 3.09,
+      "difficulty_level": "Hard",
+      "prerequisites": [
+        "Linked List"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Proofs, traces, comparative problems, and exam-style analysis"
+    },
+    {
+      "order": 14,
+      "topic": "Heap",
+      "module": "Trees",
+      "allocated_hours": 2.75,
+      "percentage_weight": 6.61,
+      "importance_level": "High",
+      "cognitive_level": 2.6,
+      "difficulty_score": 2.43,
+      "difficulty_level": "Moderate",
+      "prerequisites": [
+        "Binary Trees",
+        "Arrays"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Worked examples, implementation traces, and guided problem solving"
+    },
+    {
+      "order": 15,
+      "topic": "Tree Traversals",
+      "module": "Trees",
+      "allocated_hours": 1.75,
+      "percentage_weight": 2.54,
+      "importance_level": "Low",
+      "cognitive_level": 2.5,
+      "difficulty_score": 1.67,
+      "difficulty_level": "Easy",
+      "prerequisites": [
+        "Binary Trees"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 16,
+      "topic": "BST",
+      "module": "Trees",
+      "allocated_hours": 1.5,
+      "percentage_weight": 1.94,
+      "importance_level": "Low",
+      "cognitive_level": 2.0,
+      "difficulty_score": 1.35,
+      "difficulty_level": "Easy",
+      "prerequisites": [
+        "Binary Trees"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 17,
+      "topic": "Dijkstra",
+      "module": "Graphs",
+      "allocated_hours": 1.5,
+      "percentage_weight": 1.94,
+      "importance_level": "Low",
+      "cognitive_level": 2.0,
+      "difficulty_score": 1.7,
+      "difficulty_level": "Easy",
+      "prerequisites": [],
+      "missing_prerequisite_notes": [
+        "Priority Queue"
+      ],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 18,
+      "topic": "DFS",
+      "module": "Graphs",
+      "allocated_hours": 1.25,
+      "percentage_weight": 1.45,
+      "importance_level": "Low",
+      "cognitive_level": 3.0,
+      "difficulty_score": 1.81,
+      "difficulty_level": "Easy",
+      "prerequisites": [
+        "Stack"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 19,
+      "topic": "Minimum Spanning Tree",
+      "module": "Graphs",
+      "allocated_hours": 1.25,
+      "percentage_weight": 0.97,
+      "importance_level": "Low",
+      "cognitive_level": 2.0,
+      "difficulty_score": 1.57,
+      "difficulty_level": "Easy",
+      "prerequisites": [],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    },
+    {
+      "order": 20,
+      "topic": "Hash Functions",
+      "module": "Hashing",
+      "allocated_hours": 1.25,
+      "percentage_weight": 0.51,
+      "importance_level": "Low",
+      "cognitive_level": 1.0,
+      "difficulty_score": 0.64,
+      "difficulty_level": "Easy",
+      "prerequisites": [
+        "Arrays"
+      ],
+      "missing_prerequisite_notes": [],
+      "recommended_activity": "Concept explanation, definitions, diagrams, and short recall checks"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "Algorithm Analysis":     {"module_id": 1, "book_weight": 0.90},
+  "Linear Data Structures": {"module_id": 2, "book_weight": 0.50},
+  "Searching and Sorting":  {"module_id": 3, "book_weight": 0.85},
+  "Trees":                  {"module_id": 4, "book_weight": 0.80},
+  "Heaps and AVL Trees":    {"module_id": 5, "book_weight": 0.75},
+  "Graphs":                 {"module_id": 6, "book_weight": 1.00},
+  "Hashing":                {"module_id": 7, "book_weight": 0.60}
+}

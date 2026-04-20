@@ -1,0 +1,1547 @@
+{
+  "metadata": {
+    "source_file_count": 11,
+    "question_count": 74,
+    "skipped_unknown_count": 0,
+    "primary_topic_weight": 1.0,
+    "secondary_topic_weight": 0.45,
+    "min_confidence": 0.25,
+    "formula": "score = bloom_weight * confidence * topic_role_weight"
+  },
+  "ranked_topics": [
+    {
+      "topic": "Binary Trees",
+      "frequency": 14.9,
+      "primary_frequency": 14,
+      "secondary_frequency": 2,
+      "raw_score": 30.585,
+      "weighted_score": 32.1143,
+      "normalized_weight": 0.1587,
+      "percentage_weight": 15.87,
+      "average_confidence": 0.979,
+      "importance_level": "Very High",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 13.45,
+        "Apply": 1.45,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "C1_DSA_CAT-2_KEY.json",
+          "question_id": "Q3",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        },
+        {
+          "source_file": "C1_DSA_CAT-2_KEY.json",
+          "question_id": "Q4",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.96,
+          "score": 1.92
+        },
+        {
+          "source_file": "C1_DSA_CAT-2_KEY.json",
+          "question_id": "Q6",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q3",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q4",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q6",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q7",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q3",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q4",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q5",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q6",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CATII_B2_QP.json",
+          "question_id": "Q2",
+          "role": "secondary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 1.323
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "topic": "Recurrence Relations",
+      "frequency": 11.0,
+      "primary_frequency": 11,
+      "secondary_frequency": 0,
+      "raw_score": 26.16,
+      "weighted_score": 28.776,
+      "normalized_weight": 0.1422,
+      "percentage_weight": 14.22,
+      "average_confidence": 0.94,
+      "importance_level": "Very High",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 5.0,
+        "Apply": 6.0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "B2_CATI_QP.json",
+          "question_id": "Q5",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        },
+        {
+          "source_file": "BCSE202L-A1- Key.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "BCSE202L-A1- Key.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "BCSE202L-A2- Key.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.82,
+          "score": 2.46
+        },
+        {
+          "source_file": "BCSE202L-A2- Key.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.83,
+          "score": 2.49
+        },
+        {
+          "source_file": "C2 SLOT - CAT 1_QP_Key.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.89,
+          "score": 2.67
+        },
+        {
+          "source_file": "C2 SLOT - CAT 1_QP_Key.json",
+          "question_id": "Q3",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.94,
+          "score": 1.88
+        },
+        {
+          "source_file": "CAT-1 B1 SLOT DSA QP.json",
+          "question_id": "Q3",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q6",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q9",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q10",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "topic": "Time Complexity",
+      "frequency": 8.6,
+      "primary_frequency": 5,
+      "secondary_frequency": 8,
+      "raw_score": 19.971,
+      "weighted_score": 22.3675,
+      "normalized_weight": 0.1105,
+      "percentage_weight": 11.05,
+      "average_confidence": 0.975,
+      "importance_level": "Very High",
+      "bloom_distribution": {
+        "Remember": 1.0,
+        "Understand": 4.8,
+        "Apply": 1.35,
+        "Analyze": 1.45,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "B2_CATI_QP.json",
+          "question_id": "Q5",
+          "role": "secondary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 1.323
+        },
+        {
+          "source_file": "BCSE202L-A1- Key.json",
+          "question_id": "Q1",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "BCSE202L-A1- Key.json",
+          "question_id": "Q2",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "BCSE202L-A1- Key.json",
+          "question_id": "Q3",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "BCSE202L-A2- Key.json",
+          "question_id": "Q5",
+          "role": "secondary",
+          "bloom_level": "Analyze",
+          "confidence": 0.98,
+          "score": 1.764
+        },
+        {
+          "source_file": "BCSE202L-A2- Key.json",
+          "question_id": "Q6",
+          "role": "primary",
+          "bloom_level": "Remember",
+          "confidence": 0.91,
+          "score": 0.91
+        },
+        {
+          "source_file": "C2 SLOT - CAT 1_QP_Key.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q8",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "CAT-1 B1 SLOT DSA QP.json",
+          "question_id": "Q3",
+          "role": "secondary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 1.323
+        },
+        {
+          "source_file": "CAT-1 B1 SLOT DSA QP.json",
+          "question_id": "Q7",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Analyze",
+          "confidence": 0.98,
+          "score": 3.92
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q4",
+          "role": "secondary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 1.323
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q6",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "topic": "Stack",
+      "frequency": 7.8,
+      "primary_frequency": 6,
+      "secondary_frequency": 4,
+      "raw_score": 19.631,
+      "weighted_score": 20.6126,
+      "normalized_weight": 0.1019,
+      "percentage_weight": 10.19,
+      "average_confidence": 0.978,
+      "importance_level": "Very High",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 3.35,
+        "Apply": 4.45,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "B2_CATI_QP.json",
+          "question_id": "Q3",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        },
+        {
+          "source_file": "BCSE202L-A2- Key.json",
+          "question_id": "Q3",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C1_DSA_CAT-2_KEY.json",
+          "question_id": "Q3",
+          "role": "secondary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 1.323
+        },
+        {
+          "source_file": "C1_DSA_CAT-2_KEY.json",
+          "question_id": "Q4",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.96,
+          "score": 0.864
+        },
+        {
+          "source_file": "C2 SLOT - CAT 1_QP_Key.json",
+          "question_id": "Q4",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q4",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q4",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "CAT-1 B1 SLOT DSA QP.json",
+          "question_id": "Q5",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q7",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q8",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "topic": "Heap",
+      "frequency": 5.0,
+      "primary_frequency": 5,
+      "secondary_frequency": 0,
+      "raw_score": 12.74,
+      "weighted_score": 13.377,
+      "normalized_weight": 0.0661,
+      "percentage_weight": 6.61,
+      "average_confidence": 0.98,
+      "importance_level": "High",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 2.0,
+        "Apply": 3.0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q9",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q10",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q7",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q8",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        },
+        {
+          "source_file": "CATII_B2_QP.json",
+          "question_id": "Q4",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "topic": "Asymptotic Notation",
+      "frequency": 4.0,
+      "primary_frequency": 4,
+      "secondary_frequency": 0,
+      "raw_score": 10.38,
+      "weighted_score": 11.418,
+      "normalized_weight": 0.0564,
+      "percentage_weight": 5.64,
+      "average_confidence": 0.955,
+      "importance_level": "Medium",
+      "bloom_distribution": {
+        "Remember": 1.0,
+        "Understand": 1.0,
+        "Apply": 0,
+        "Analyze": 2.0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "B2_CATI_QP.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.98
+        },
+        {
+          "source_file": "BCSE202L-A1- Key.json",
+          "question_id": "Q4",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CAT-1 B1 SLOT DSA QP.json",
+          "question_id": "Q8",
+          "role": "primary",
+          "bloom_level": "Analyze",
+          "confidence": 0.98,
+          "score": 3.92
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q3",
+          "role": "primary",
+          "bloom_level": "Analyze",
+          "confidence": 0.88,
+          "score": 3.52
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "topic": "Arrays",
+      "frequency": 4.7,
+      "primary_frequency": 2,
+      "secondary_frequency": 6,
+      "raw_score": 10.633,
+      "weighted_score": 11.1646,
+      "normalized_weight": 0.0552,
+      "percentage_weight": 5.52,
+      "average_confidence": 0.98,
+      "importance_level": "Medium",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 3.25,
+        "Apply": 1.45,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q7",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q8",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q9",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q6",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "C2_TC2_CO.json",
+          "question_id": "Q7",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "CAT-1 B1 SLOT DSA QP.json",
+          "question_id": "Q7",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q4",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q8",
+          "role": "secondary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 1.323
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "topic": "Queue",
+      "frequency": 5.45,
+      "primary_frequency": 5,
+      "secondary_frequency": 1,
+      "raw_score": 10.241,
+      "weighted_score": 10.753,
+      "normalized_weight": 0.0531,
+      "percentage_weight": 5.31,
+      "average_confidence": 0.98,
+      "importance_level": "Medium",
+      "bloom_distribution": {
+        "Remember": 1.45,
+        "Understand": 3.0,
+        "Apply": 1.0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "B2_CATI_QP.json",
+          "question_id": "Q2",
+          "role": "secondary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.441
+        },
+        {
+          "source_file": "BCSE202L-A1- Key.json",
+          "question_id": "Q5",
+          "role": "primary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.98
+        },
+        {
+          "source_file": "BCSE202L-A1- Key.json",
+          "question_id": "Q6",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        },
+        {
+          "source_file": "BCSE202L-A2- Key.json",
+          "question_id": "Q4",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CAT-1 B1 SLOT DSA QP.json",
+          "question_id": "Q6",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q5",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "topic": "Bubble Sort",
+      "frequency": 3.0,
+      "primary_frequency": 3,
+      "secondary_frequency": 0,
+      "raw_score": 7.84,
+      "weighted_score": 7.84,
+      "normalized_weight": 0.0387,
+      "percentage_weight": 3.87,
+      "average_confidence": 0.98,
+      "importance_level": "Medium",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 2.0,
+        "Apply": 0,
+        "Analyze": 1.0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "BCSE202L-A2- Key.json",
+          "question_id": "Q5",
+          "role": "primary",
+          "bloom_level": "Analyze",
+          "confidence": 0.98,
+          "score": 3.92
+        },
+        {
+          "source_file": "C2 SLOT - CAT 1_QP_Key.json",
+          "question_id": "Q5",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C2 SLOT - CAT 1_QP_Key.json",
+          "question_id": "Q6",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "topic": "Linked List",
+      "frequency": 5.0,
+      "primary_frequency": 5,
+      "secondary_frequency": 0,
+      "raw_score": 4.9,
+      "weighted_score": 5.145,
+      "normalized_weight": 0.0254,
+      "percentage_weight": 2.54,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 5.0,
+        "Understand": 0,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "B2_CATI_QP.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.98
+        },
+        {
+          "source_file": "C1_DSA_CAT-2_KEY.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.98
+        },
+        {
+          "source_file": "C1_DSA_CAT-2_KEY.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.98
+        },
+        {
+          "source_file": "CAT-1 B1 SLOT DSA QP.json",
+          "question_id": "Q4",
+          "role": "primary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.98
+        },
+        {
+          "source_file": "CATII_B2_QP.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.98
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "topic": "Tree Traversals",
+      "frequency": 2.0,
+      "primary_frequency": 2,
+      "secondary_frequency": 0,
+      "raw_score": 4.9,
+      "weighted_score": 5.145,
+      "normalized_weight": 0.0254,
+      "percentage_weight": 2.54,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 1.0,
+        "Apply": 1.0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "C2_DSA_CAT-2_KEY.json",
+          "question_id": "Q5",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CATII_B2_QP.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "topic": "Algorithm Correctness",
+      "frequency": 1.45,
+      "primary_frequency": 1,
+      "secondary_frequency": 1,
+      "raw_score": 4.361,
+      "weighted_score": 4.361,
+      "normalized_weight": 0.0215,
+      "percentage_weight": 2.15,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0.45,
+        "Understand": 0,
+        "Apply": 0,
+        "Analyze": 1.0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "B2_CATI_QP.json",
+          "question_id": "Q4",
+          "role": "secondary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.441
+        },
+        {
+          "source_file": "CAT-1 B1 SLOT DSA QP.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Analyze",
+          "confidence": 0.98,
+          "score": 3.92
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "topic": "Algorithm Basics",
+      "frequency": 3.0,
+      "primary_frequency": 3,
+      "secondary_frequency": 0,
+      "raw_score": 4.34,
+      "weighted_score": 4.34,
+      "normalized_weight": 0.0214,
+      "percentage_weight": 2.14,
+      "average_confidence": 0.887,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 1.0,
+        "Understand": 2.0,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "B2_CATI_QP.json",
+          "question_id": "Q4",
+          "role": "primary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.98
+        },
+        {
+          "source_file": "CAT-1 B1 SLOT DSA QP.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CATI_G2.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.7,
+          "score": 1.4
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "topic": "Complexity Analysis (sorting-specific)",
+      "frequency": 1.8,
+      "primary_frequency": 0,
+      "secondary_frequency": 4,
+      "raw_score": 5.292,
+      "weighted_score": 3.969,
+      "normalized_weight": 0.0196,
+      "percentage_weight": 1.96,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 0.9,
+        "Apply": 0,
+        "Analyze": 0.9,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "BCSE202L-A1- Key.json",
+          "question_id": "Q7",
+          "role": "secondary",
+          "bloom_level": "Analyze",
+          "confidence": 0.98,
+          "score": 1.764
+        },
+        {
+          "source_file": "BCSE202L-A2- Key.json",
+          "question_id": "Q5",
+          "role": "secondary",
+          "bloom_level": "Analyze",
+          "confidence": 0.98,
+          "score": 1.764
+        },
+        {
+          "source_file": "C2 SLOT - CAT 1_QP_Key.json",
+          "question_id": "Q5",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        },
+        {
+          "source_file": "C2 SLOT - CAT 1_QP_Key.json",
+          "question_id": "Q6",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "topic": "BST",
+      "frequency": 2.0,
+      "primary_frequency": 2,
+      "secondary_frequency": 0,
+      "raw_score": 3.92,
+      "weighted_score": 3.92,
+      "normalized_weight": 0.0194,
+      "percentage_weight": 1.94,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 2.0,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "C1_DSA_CAT-2_KEY.json",
+          "question_id": "Q5",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "C1_DSA_CAT-2_KEY.json",
+          "question_id": "Q6",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "topic": "Dijkstra",
+      "frequency": 2.0,
+      "primary_frequency": 2,
+      "secondary_frequency": 0,
+      "raw_score": 3.92,
+      "weighted_score": 3.92,
+      "normalized_weight": 0.0194,
+      "percentage_weight": 1.94,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 2.0,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "CATII_B1_QP.json",
+          "question_id": "Q1",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        },
+        {
+          "source_file": "CATII_B2_QP.json",
+          "question_id": "Q6",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "topic": "Insertion Sort",
+      "frequency": 1.0,
+      "primary_frequency": 1,
+      "secondary_frequency": 0,
+      "raw_score": 3.92,
+      "weighted_score": 3.92,
+      "normalized_weight": 0.0194,
+      "percentage_weight": 1.94,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 0,
+        "Apply": 0,
+        "Analyze": 1.0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "BCSE202L-A1- Key.json",
+          "question_id": "Q7",
+          "role": "primary",
+          "bloom_level": "Analyze",
+          "confidence": 0.98,
+          "score": 3.92
+        }
+      ],
+      "rank": 17
+    },
+    {
+      "topic": "DFS",
+      "frequency": 1.0,
+      "primary_frequency": 1,
+      "secondary_frequency": 0,
+      "raw_score": 2.94,
+      "weighted_score": 2.94,
+      "normalized_weight": 0.0145,
+      "percentage_weight": 1.45,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 0,
+        "Apply": 1.0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "CATII_B2_QP.json",
+          "question_id": "Q5",
+          "role": "primary",
+          "bloom_level": "Apply",
+          "confidence": 0.98,
+          "score": 2.94
+        }
+      ],
+      "rank": 18
+    },
+    {
+      "topic": "Minimum Spanning Tree",
+      "frequency": 1.0,
+      "primary_frequency": 1,
+      "secondary_frequency": 0,
+      "raw_score": 1.96,
+      "weighted_score": 1.96,
+      "normalized_weight": 0.0097,
+      "percentage_weight": 0.97,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 1.0,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "CATII_B1_QP.json",
+          "question_id": "Q2",
+          "role": "primary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 1.96
+        }
+      ],
+      "rank": 19
+    },
+    {
+      "topic": "Hash Functions",
+      "frequency": 1.0,
+      "primary_frequency": 1,
+      "secondary_frequency": 0,
+      "raw_score": 0.98,
+      "weighted_score": 1.029,
+      "normalized_weight": 0.0051,
+      "percentage_weight": 0.51,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 1.0,
+        "Understand": 0,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "CATII_B2_QP.json",
+          "question_id": "Q3",
+          "role": "primary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.98
+        }
+      ],
+      "rank": 20
+    },
+    {
+      "topic": "Binary Search",
+      "frequency": 0.45,
+      "primary_frequency": 0,
+      "secondary_frequency": 1,
+      "raw_score": 0.882,
+      "weighted_score": 0.6615,
+      "normalized_weight": 0.0033,
+      "percentage_weight": 0.33,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 0.45,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "C1_DSA_CAT-2_KEY.json",
+          "question_id": "Q5",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        }
+      ],
+      "rank": 21
+    },
+    {
+      "topic": "Prim",
+      "frequency": 0.45,
+      "primary_frequency": 0,
+      "secondary_frequency": 1,
+      "raw_score": 0.882,
+      "weighted_score": 0.6615,
+      "normalized_weight": 0.0033,
+      "percentage_weight": 0.33,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 0.45,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "CATII_B1_QP.json",
+          "question_id": "Q2",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        }
+      ],
+      "rank": 22
+    },
+    {
+      "topic": "Kruskal",
+      "frequency": 0.45,
+      "primary_frequency": 0,
+      "secondary_frequency": 1,
+      "raw_score": 0.882,
+      "weighted_score": 0.6615,
+      "normalized_weight": 0.0033,
+      "percentage_weight": 0.33,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0,
+        "Understand": 0.45,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "CATII_B1_QP.json",
+          "question_id": "Q2",
+          "role": "secondary",
+          "bloom_level": "Understand",
+          "confidence": 0.98,
+          "score": 0.882
+        }
+      ],
+      "rank": 23
+    },
+    {
+      "topic": "Linear Search",
+      "frequency": 0.45,
+      "primary_frequency": 0,
+      "secondary_frequency": 1,
+      "raw_score": 0.441,
+      "weighted_score": 0.3307,
+      "normalized_weight": 0.0016,
+      "percentage_weight": 0.16,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0.45,
+        "Understand": 0,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "B2_CATI_QP.json",
+          "question_id": "Q4",
+          "role": "secondary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.441
+        }
+      ],
+      "rank": 24
+    },
+    {
+      "topic": "Collision Resolution",
+      "frequency": 0.45,
+      "primary_frequency": 0,
+      "secondary_frequency": 1,
+      "raw_score": 0.441,
+      "weighted_score": 0.3307,
+      "normalized_weight": 0.0016,
+      "percentage_weight": 0.16,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0.45,
+        "Understand": 0,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "CATII_B2_QP.json",
+          "question_id": "Q3",
+          "role": "secondary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.441
+        }
+      ],
+      "rank": 25
+    },
+    {
+      "topic": "Separate Chaining",
+      "frequency": 0.45,
+      "primary_frequency": 0,
+      "secondary_frequency": 1,
+      "raw_score": 0.441,
+      "weighted_score": 0.3307,
+      "normalized_weight": 0.0016,
+      "percentage_weight": 0.16,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0.45,
+        "Understand": 0,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "CATII_B2_QP.json",
+          "question_id": "Q3",
+          "role": "secondary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.441
+        }
+      ],
+      "rank": 26
+    },
+    {
+      "topic": "Open Addressing",
+      "frequency": 0.45,
+      "primary_frequency": 0,
+      "secondary_frequency": 1,
+      "raw_score": 0.441,
+      "weighted_score": 0.3307,
+      "normalized_weight": 0.0016,
+      "percentage_weight": 0.16,
+      "average_confidence": 0.98,
+      "importance_level": "Low",
+      "bloom_distribution": {
+        "Remember": 0.45,
+        "Understand": 0,
+        "Apply": 0,
+        "Analyze": 0,
+        "Create": 0
+      },
+      "questions": [
+        {
+          "source_file": "CATII_B2_QP.json",
+          "question_id": "Q3",
+          "role": "secondary",
+          "bloom_level": "Remember",
+          "confidence": 0.98,
+          "score": 0.441
+        }
+      ],
+      "rank": 27
+    }
+  ],
+  "topic_groups": [
+    {
+      "group": "Algorithm Analysis",
+      "topics": [
+        "Recurrence Relations",
+        "Time Complexity",
+        "Algorithm Basics",
+        "Asymptotic Notation",
+        "Algorithm Correctness"
+      ],
+      "weighted_score": 71.2625,
+      "percentage_weight": 35.2,
+      "frequency": 28.05,
+      "primary_frequency": 24
+    },
+    {
+      "group": "Trees",
+      "topics": [
+        "Binary Trees",
+        "Heap",
+        "BST",
+        "Tree Traversals"
+      ],
+      "weighted_score": 54.5563,
+      "percentage_weight": 26.96,
+      "frequency": 23.9,
+      "primary_frequency": 23
+    },
+    {
+      "group": "Linear Data Structures",
+      "topics": [
+        "Linked List",
+        "Queue",
+        "Arrays",
+        "Stack"
+      ],
+      "weighted_score": 47.6752,
+      "percentage_weight": 23.56,
+      "frequency": 22.95,
+      "primary_frequency": 18
+    },
+    {
+      "group": "Searching And Sorting",
+      "topics": [
+        "Complexity Analysis (sorting-specific)",
+        "Linear Search",
+        "Bubble Sort",
+        "Binary Search",
+        "Insertion Sort"
+      ],
+      "weighted_score": 16.7212,
+      "percentage_weight": 8.26,
+      "frequency": 6.7,
+      "primary_frequency": 4
+    },
+    {
+      "group": "Graphs",
+      "topics": [
+        "Kruskal",
+        "Minimum Spanning Tree",
+        "Dijkstra",
+        "DFS",
+        "Prim"
+      ],
+      "weighted_score": 10.143,
+      "percentage_weight": 5.02,
+      "frequency": 4.9,
+      "primary_frequency": 4
+    },
+    {
+      "group": "Hashing",
+      "topics": [
+        "Separate Chaining",
+        "Hash Functions",
+        "Collision Resolution",
+        "Open Addressing"
+      ],
+      "weighted_score": 2.0211,
+      "percentage_weight": 0.99,
+      "frequency": 2.35,
+      "primary_frequency": 1
+    }
+  ],
+  "skipped_unknown_questions": []
+}
