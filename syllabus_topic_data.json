@@ -1,0 +1,417 @@
+{
+  "Linear Data Structures": {
+    "Arrays": [
+      "1D Arrays: Memory layout, indexing, basic operations",
+      "2D Arrays: Row-major vs column-major storage",
+      "Multi-dimensional arrays: Memory allocation patterns",
+      "Dynamic arrays: Resizing strategies and amortized costs",
+      "Sparse arrays: Efficient representation techniques",
+      "Array manipulation algorithms: Rotation, reversal, searching"
+    ],
+    "Stacks": {
+      "Implementation": [
+        "Array-based stack implementation",
+        "Linked list-based stack implementation"
+      ],
+      "Basic Operations": [
+        "Push operation and overflow handling",
+        "Pop operation and underflow handling",
+        "Peek/Top operation",
+        "isEmpty and isFull checks"
+      ],
+      "Applications": [
+        "Infix to Postfix conversion algorithms",
+        "Postfix expression evaluation",
+        "Infix expression evaluation",
+        "Tower of Hanoi recursive solution",
+        "Function call stack management",
+        "Undo operations in applications",
+        "Browser history management",
+        "Balanced parentheses checking"
+      ]
+    },
+    "Queues": {
+      "Types": [
+        "Simple Queue: FIFO principle and basic operations",
+        "Circular Queue: Efficient space utilization",
+        "Double-ended Queue (Deque): Operations at both ends",
+        "Priority Queue: Element ordering by priority"
+      ],
+      "Applications": [
+        "CPU scheduling algorithms",
+        "Print job management",
+        "Breadth-first search implementation",
+        "Buffer management in data streams"
+      ]
+    },
+    "Linked Lists": {
+      "Singly Linked List": [
+        "Node structure and pointer manipulation",
+        "Insert operations (beginning, middle, end)",
+        "Delete operations and memory management",
+        "Search and traversal algorithms"
+      ],
+      "Doubly Linked List": [
+        "Bidirectional traversal benefits",
+        "Complex insertion and deletion handling",
+        "Memory overhead considerations"
+      ],
+      "Circular Linked List": [
+        "Single and double circular variants",
+        "Applications in round-robin scheduling"
+      ],
+      "Advanced Operations": [
+        "List reversal algorithms",
+        "Cycle detection (Floyd's algorithm)",
+        "Merging sorted lists",
+        "Finding middle element techniques"
+      ]
+    },
+    "Polynomial Applications": [
+      "Polynomial representation using arrays and linked lists",
+      "Polynomial addition and subtraction algorithms",
+      "Polynomial multiplication techniques",
+      "Sparse polynomial optimization"
+    ]
+  },
+  "Searching and Sorting": {
+    "Searching Algorithms": {
+      "Linear Search": [
+        "Sequential scanning approach",
+        "Best and worst case analysis",
+        "Variations for different data types"
+      ],
+      "Binary Search": [
+        "Divide and conquer principle",
+        "Iterative vs recursive implementation",
+        "Applications in sorted arrays",
+        "Modified binary search problems"
+      ],
+      "Advanced Searching": [
+        "Interpolation search for uniformly distributed data",
+        "Exponential search for unbounded arrays",
+        "Ternary search optimization"
+      ]
+    },
+    "Simple Sorting Algorithms": {
+      "Insertion Sort": [
+        "In-place sorting mechanism",
+        "Adaptive behavior analysis",
+        "Binary insertion sort optimization"
+      ],
+      "Selection Sort": [
+        "Selection criteria and swap operations",
+        "Stability considerations"
+      ],
+      "Bubble Sort": [
+        "Adjacent element comparison",
+        "Optimization techniques (early termination)"
+      ]
+    },
+    "Advanced Sorting Algorithms": {
+      "Quick Sort": [
+        "Partition strategies (Lomuto, Hoare)",
+        "Pivot selection techniques",
+        "Randomized quicksort",
+        "3-way partitioning for duplicates"
+      ],
+      "Merge Sort": [
+        "Divide and conquer approach",
+        "External sorting applications",
+        "Bottom-up vs top-down implementation"
+      ],
+      "Heap Sort": [
+        "Heap property utilization",
+        "In-place sorting technique",
+        "Performance characteristics"
+      ]
+    },
+    "Specialized Sorting": [
+      "Counting Sort: Integer sorting with counting arrays",
+      "Radix Sort: Digit-by-digit sorting approach",
+      "Bucket Sort: Distribution-based sorting method",
+      "Shell Sort: Gap-based insertion sort improvement"
+    ],
+    "Sorting Analysis": [
+      "Stability in sorting algorithms",
+      "In-place vs out-of-place sorting",
+      "Adaptive sorting algorithm behavior",
+      "Lower bound analysis for comparison-based sorting",
+      "Hybrid sorting approaches"
+    ],
+    "Collision Resolution": [
+      "Hash table collision handling strategies",
+      "Performance impact of different resolution methods",
+      "Load factor considerations"
+    ]
+  },
+  "Trees": {
+    "Binary Tree Fundamentals": [
+      "Tree Terminology: Root, leaf, parent, child, siblings",
+      "Tree Properties: Height, depth, level, degree",
+      "Binary Tree Types: Complete, full, perfect, balanced",
+      "Memory Representation: Array vs pointer-based"
+    ],
+    "Tree Traversals": [
+      "Inorder Traversal: Left-Root-Right pattern",
+      "Preorder Traversal: Root-Left-Right pattern",
+      "Postorder Traversal: Left-Right-Root pattern",
+      "Level Order Traversal: Breadth-first approach",
+      "Iterative vs Recursive Implementations",
+      "Morris Traversal: Space-efficient traversal"
+    ],
+    "Expression Trees": [
+      "Construction from infix/postfix expressions",
+      "Expression evaluation using tree traversal",
+      "Converting between expression formats",
+      "Operator precedence handling"
+    ],
+    "Binary Search Trees (BST)": {
+      "BST Properties": [
+        "Ordering constraints and invariants"
+      ],
+      "Basic Operations": [
+        "Insert operation with duplicate handling",
+        "Delete operation (leaf, single child, two children)",
+        "Search operation optimization",
+        "Minimum and maximum element finding"
+      ],
+      "Advanced Operations": [
+        "Kth smallest/largest element finding",
+        "Range queries and range sum",
+        "LCA (Lowest Common Ancestor) problems",
+        "BST validation algorithms"
+      ],
+      "BST Variations": [
+        "Self-balancing considerations",
+        "BST to sorted array conversion"
+      ]
+    },
+    "Multi-way Trees": {
+      "M-way Trees": [
+        "Generalized tree structures"
+      ],
+      "2-3 Trees": [
+        "Node splitting and merging operations",
+        "Balanced tree maintenance",
+        "Search and insertion algorithms"
+      ],
+      "B-Trees": [
+        "Database indexing applications"
+      ],
+      "Trie (Prefix Trees)": [
+        "String searching optimization"
+      ]
+    },
+    "STL Containers": [
+      "Sets: Unique element containers using BST",
+      "Multisets: Duplicate element handling",
+      "Map and Multimap: Key-value pair storage",
+      "STL Implementation Details: Red-black tree usage"
+    ],
+    "Threaded Trees": [
+      "Threading Concepts: Null pointer utilization",
+      "Single Threading: Right threading implementation",
+      "Double Threading: Left and right threading",
+      "Threaded Tree Traversal: Efficient inorder traversal"
+    ]
+  },
+  "Heaps and AVL Trees": {
+    "Heap Data Structure": {
+      "Heap Properties": [
+        "Min-heap and max-heap characteristics",
+        "Heap Representation: Complete binary tree as array"
+      ],
+      "Heap Operations": [
+        "Insert operation and bubble-up process",
+        "Delete operation and bubble-down process",
+        "Build heap from unsorted array",
+        "Heapify operation optimization"
+      ],
+      "Heap Applications": [
+        "Priority queue implementation",
+        "Heap sort algorithm",
+        "Median finding in data streams",
+        "K largest/smallest elements problems"
+      ]
+    },
+    "Priority Queues": [
+      "Abstract data type implementation using heaps",
+      "Priority queue operations and time complexity",
+      "Applications in scheduling and graph algorithms",
+      "STL priority_queue usage and customization"
+    ],
+    "AVL Trees (Adelson-Velsky and Landis)": {
+      "Self-Balancing Concepts": [
+        "Height balance maintenance"
+      ],
+      "AVL Properties": [
+        "Balance factor constraints"
+      ],
+      "Rotation Operations": [
+        "Single Right Rotation (LL case)",
+        "Single Left Rotation (RR case)",
+        "Left-Right Rotation (LR case)",
+        "Right-Left Rotation (RL case)"
+      ],
+      "AVL Operations": [
+        "Insert with rebalancing",
+        "Delete with rebalancing",
+        "Height calculation optimization"
+      ],
+      "Comparisons": [
+        "AVL vs Other Balanced Trees: Comparison with Red-Black trees"
+      ]
+    }
+  },
+  "Graphs": {
+    "Graph Fundamentals": {
+      "Graph Terminology": [
+        "Vertices, edges, degree, path, cycle"
+      ],
+      "Graph Types": [
+        "Directed vs undirected graphs",
+        "Weighted vs unweighted graphs",
+        "Simple vs multigraphs",
+        "Connected vs disconnected graphs",
+        "Cyclic vs acyclic graphs"
+      ]
+    },
+    "Graph Representation": {
+      "Adjacency Matrix": [
+        "Space and time trade-offs",
+        "Sparse vs dense graph considerations",
+        "Weighted graph representation"
+      ],
+      "Adjacency List": [
+        "Space-efficient representation",
+        "Dynamic graph modification",
+        "Implementation using arrays, linked lists, vectors"
+      ],
+      "Other Representations": [
+        "Edge List Representation: Simple edge storage",
+        "Incidence Matrix: Alternative representation method"
+      ]
+    },
+    "Graph Traversals": {
+      "Breadth-First Search (BFS)": [
+        "Level-by-level exploration",
+        "Queue-based implementation",
+        "Shortest path in unweighted graphs",
+        "Connected components finding"
+      ],
+      "Depth-First Search (DFS)": [
+        "Recursive exploration approach",
+        "Stack-based iterative implementation",
+        "Topological sorting applications",
+        "Cycle detection in graphs",
+        "Strongly connected components"
+      ]
+    },
+    "Minimum Spanning Tree (MST)": {
+      "MST Properties": [
+        "Cut property and cycle property"
+      ],
+      "Prim's Algorithm": [
+        "Greedy approach starting from vertex",
+        "Priority queue optimization",
+        "Time complexity analysis"
+      ],
+      "Kruskal's Algorithm": [
+        "Edge-based greedy approach",
+        "Union-Find data structure usage",
+        "Sorting edges by weight"
+      ],
+      "Applications": [
+        "Network design, clustering"
+      ]
+    },
+    "Shortest Path Algorithms": {
+      "Dijkstra's Algorithm": [
+        "Single-source shortest path",
+        "Non-negative weight constraint",
+        "Priority queue implementation",
+        "Path reconstruction techniques"
+      ],
+      "Other Algorithms": [
+        "Bellman-Ford Algorithm: Negative weight handling",
+        "Floyd-Warshall Algorithm: All-pairs shortest paths",
+        "A* Search Algorithm: Heuristic-based pathfinding"
+      ]
+    },
+    "Advanced Graph Algorithms": [
+      "Topological Sorting: DAG ordering",
+      "Strongly Connected Components: Kosaraju's and Tarjan's algorithms",
+      "Articulation Points and Bridges: Graph connectivity analysis",
+      "Maximum Flow Problems: Ford-Fulkerson method",
+      "Graph Coloring: Chromatic number and applications"
+    ]
+  },
+  "Hashing": {
+    "Hash Function Design": {
+      "Hash Function Properties": [
+        "Deterministic behavior",
+        "Uniform distribution goals",
+        "Efficient computation requirements"
+      ],
+      "Common Hash Functions": [
+        "Division method (modular arithmetic)",
+        "Multiplication method",
+        "Universal hashing techniques",
+        "Cryptographic hash functions overview"
+      ],
+      "Hash Function Analysis": [
+        "Load factor impact",
+        "Clustering prevention strategies"
+      ]
+    },
+    "Collision Resolution Techniques": {
+      "Closed Hashing (Open Addressing)": {
+        "Linear Probing": [
+          "Sequential slot checking",
+          "Primary clustering issues",
+          "Deletion handling complexities"
+        ],
+        "Quadratic Probing": [
+          "Quadratic increment sequences",
+          "Secondary clustering reduction",
+          "Table size considerations"
+        ],
+        "Double Hashing": [
+          "Secondary hash function usage",
+          "Probe sequence generation",
+          "Performance optimization"
+        ]
+      },
+      "Open Hashing (Separate Chaining)": {
+        "Chaining with Linked Lists": [
+          "Dynamic collision handling",
+          "Memory overhead considerations",
+          "Load factor flexibility"
+        ],
+        "Chaining Optimizations": [
+          "Self-organizing lists",
+          "Binary search trees for long chains",
+          "Robin Hood hashing"
+        ]
+      }
+    },
+    "Hash Table Applications": [
+      "Symbol Tables: Compiler and interpreter usage",
+      "Caching Systems: Web browsers and databases",
+      "Database Indexing: Fast record retrieval",
+      "Distributed Systems: Consistent hashing",
+      "Set Operations: Union, intersection, difference",
+      "Dictionary Implementations: Language processing"
+    ],
+    "Advanced Hashing Concepts": [
+      "Perfect Hashing: Zero collision scenarios",
+      "Bloom Filters: Probabilistic membership testing",
+      "Cuckoo Hashing: Guaranteed constant lookup time",
+      "Consistent Hashing: Distributed system applications",
+      "Hash Table Resizing: Dynamic capacity management"
+    ]
+  }
+}
+
+

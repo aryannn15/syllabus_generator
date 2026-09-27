@@ -1,0 +1,430 @@
+{
+  "Linear Data Structures": {
+    "Arrays": [
+      "Use two-pointer technique for problems involving pairs or subarrays",
+      "Apply sliding window pattern for subarray problems with constraints",
+      "Recognize prefix sum patterns for range query optimization",
+      "Identify matrix traversal patterns (spiral, diagonal, zigzag)",
+      "Use index manipulation for in-place array rotation and reversal",
+      "Apply binary search on arrays for logarithmic time solutions"
+    ],
+    "Stacks": {
+      "Implementation": [
+        "Choose array-based implementation for fixed-size, performance-critical scenarios",
+        "Use linked list implementation when dynamic sizing is essential"
+      ],
+      "Basic Operations": [
+        "Implement push with overflow checking in bounded stack problems",
+        "Handle pop operations safely with underflow prevention",
+        "Use peek for lookahead without modification in parsing problems",
+        "Combine isEmpty/isFull checks in stack-based algorithm implementations"
+      ],
+      "Applications": [
+        "Convert infix to postfix using operator precedence and associativity rules",
+        "Evaluate postfix expressions using stack for operand storage",
+        "Solve expression evaluation with nested parentheses using stack",
+        "Apply Tower of Hanoi pattern for recursive problem decomposition",
+        "Trace function call stack for debugging recursive algorithms",
+        "Implement undo functionality using command pattern with stacks",
+        "Navigate browser history with back/forward stack operations",
+        "Check balanced parentheses using stack-based matching algorithm"
+      ]
+    },
+    "Queues": {
+      "Types": [
+        "Use simple queue for BFS traversal and level-order processing",
+        "Apply circular queue for efficient buffer management with wraparound",
+        "Implement deque for problems requiring both-end access patterns",
+        "Use priority queue for problems involving ordering by importance/value"
+      ],
+      "Applications": [
+        "Model CPU scheduling with different queue disciplines (FCFS, SJF)",
+        "Implement print queue with priority-based job processing",
+        "Use queue in BFS for shortest path in unweighted graphs",
+        "Apply producer-consumer pattern with queue-based buffering"
+      ]
+    },
+    "Linked Lists": {
+      "Singly Linked List": [
+        "Use dummy nodes to simplify edge cases in insertion/deletion",
+        "Apply two-pointer technique for middle element and cycle detection",
+        "Implement in-place reversal using three-pointer technique",
+        "Handle boundary conditions for head and tail operations"
+      ],
+      "Doubly Linked List": [
+        "Leverage bidirectional traversal for efficient deletion given node reference",
+        "Implement LRU cache using doubly linked list with hashmap",
+        "Use previous pointers to avoid traversal in deletion operations",
+        "Handle complex pointer updates during insertion and deletion"
+      ],
+      "Circular Linked List": [
+        "Detect end condition using reference equality instead of null checks",
+        "Apply circular list pattern for round-robin scheduling problems",
+        "Use Josephus problem pattern for elimination-based algorithms"
+      ],
+      "Advanced Operations": [
+        "Reverse linked list using iterative three-pointer technique",
+        "Detect cycles using Floyd's slow-fast pointer algorithm",
+        "Merge sorted lists using merge-sort merge procedure",
+        "Find middle using fast-slow pointer technique for list partitioning"
+      ]
+    },
+    "Polynomial Applications": [
+      "Represent sparse polynomials using linked lists for memory efficiency",
+      "Add polynomials by merging terms with like degrees",
+      "Multiply polynomials using nested loop pattern with degree addition",
+      "Optimize polynomial operations by skipping zero coefficients"
+    ]
+  },
+  "Searching and Sorting": {
+    "Searching Algorithms": {
+      "Linear Search": [
+        "Apply linear search when array is unsorted or searching for all occurrences",
+        "Use sentinel technique to eliminate boundary checking in loops",
+        "Implement early termination when first match is sufficient",
+        "Adapt linear search for different data types with custom comparison"
+      ],
+      "Binary Search": [
+        "Apply binary search template for sorted array problems",
+        "Use modified binary search for rotated array problems",
+        "Find insertion position using binary search for sorted insertion",
+        "Search for range boundaries using binary search variants (lower_bound, upper_bound)",
+        "Apply binary search on answer for optimization problems"
+      ],
+      "Advanced Searching": [
+        "Use interpolation search for uniformly distributed sorted data",
+        "Apply exponential search when searching in unbounded/infinite arrays",
+        "Use ternary search for unimodal function optimization problems"
+      ]
+    },
+    "Simple Sorting Algorithms": {
+      "Insertion Sort": [
+        "Apply insertion sort for small arrays or nearly sorted data",
+        "Use binary insertion sort to reduce comparisons in insertion position finding",
+        "Recognize adaptive behavior - performs well on partially sorted arrays",
+        "Implement stable sorting by maintaining relative order of equal elements"
+      ],
+      "Selection Sort": [
+        "Use selection sort when minimizing number of swaps is important",
+        "Apply selection sort for finding k smallest/largest elements",
+        "Recognize instability - equal elements may change relative order"
+      ],
+      "Bubble Sort": [
+        "Implement optimized bubble sort with early termination flag",
+        "Use bubble sort for educational purposes to understand comparison-based sorting",
+        "Apply cocktail sort (bidirectional bubble sort) for slight optimization"
+      ]
+    },
+    "Advanced Sorting Algorithms": {
+      "Quick Sort": [
+        "Choose pivot using median-of-three for better average performance",
+        "Apply Lomuto partition for simpler implementation, Hoare for efficiency",
+        "Use randomized pivot selection to avoid worst-case on sorted arrays",
+        "Implement 3-way partitioning for arrays with many duplicate elements",
+        "Apply quickselect for finding kth order statistics"
+      ],
+      "Merge Sort": [
+        "Use merge sort for stable sorting requirements",
+        "Apply external merge sort for sorting large files that don't fit in memory",
+        "Implement bottom-up merge sort for iterative approach",
+        "Use merge procedure for merging k sorted arrays problems"
+      ],
+      "Heap Sort": [
+        "Build max-heap using bottom-up heapify for O(n) construction",
+        "Apply heap sort for in-place sorting with O(n log n) guarantee",
+        "Use partial heap sort for finding k largest/smallest elements"
+      ]
+    },
+    "Specialized Sorting": [
+      "Apply counting sort for integer arrays with small range of values",
+      "Use radix sort for integers by processing digits from least to most significant",
+      "Apply bucket sort for uniformly distributed floating-point numbers",
+      "Use shell sort as improved insertion sort with gap sequences"
+    ],
+    "Sorting Analysis": [
+      "Choose stable sorts when maintaining original order of equal elements matters",
+      "Use in-place sorts when memory usage is constrained",
+      "Apply adaptive sorts for nearly sorted data optimization",
+      "Recognize comparison sort lower bound of O(n log n) for worst-case",
+      "Use hybrid approaches like introsort (quicksort + heapsort + insertion sort)"
+    ],
+    "Collision Resolution": [
+      "Apply separate chaining when load factor is high or unknown",
+      "Use open addressing when memory locality is important",
+      "Choose appropriate probing sequence based on clustering characteristics"
+    ]
+  },
+  "Trees": {
+    "Binary Tree Fundamentals": [
+      "Calculate tree height using recursive max(left_height, right_height) + 1",
+      "Identify complete vs full vs perfect binary trees for optimization opportunities",
+      "Use array representation for complete binary trees in heap implementations",
+      "Apply level-order numbering for parent-child index relationships"
+    ],
+    "Tree Traversals": [
+      "Use inorder traversal for BST to get sorted sequence",
+      "Apply preorder traversal for tree copying and expression tree evaluation",
+      "Use postorder traversal for tree deletion and calculating subtree properties",
+      "Apply level-order traversal for BFS and level-wise processing",
+      "Choose iterative traversals when recursion stack depth is a concern",
+      "Use Morris traversal for O(1) space tree traversal"
+    ],
+    "Expression Trees": [
+      "Build expression trees from postfix notation using stack",
+      "Evaluate expression trees using postorder traversal",
+      "Convert between infix/prefix/postfix using tree traversals",
+      "Handle operator precedence and associativity in tree construction"
+    ],
+    "Binary Search Trees (BST)": {
+      "BST Properties": [
+        "Validate BST using inorder traversal or min-max bounds checking"
+      ],
+      "Basic Operations": [
+        "Insert nodes maintaining BST property with recursive or iterative approach",
+        "Delete nodes handling three cases: leaf, one child, two children",
+        "Find min/max by going leftmost/rightmost in BST",
+        "Search using BST property for O(log n) average time"
+      ],
+      "Advanced Operations": [
+        "Find kth smallest using inorder traversal or rank-based approach",
+        "Answer range queries using BST bounds checking",
+        "Find LCA using BST property for efficient ancestor finding",
+        "Validate BST using bounds or inorder traversal techniques"
+      ],
+      "BST Variations": [
+        "Detect when BST becomes skewed and needs balancing",
+        "Convert BST to sorted array using inorder traversal"
+      ]
+    },
+    "Multi-way Trees": {
+      "M-way Trees": [
+        "Handle multiple keys per node for database indexing applications"
+      ],
+      "2-3 Trees": [
+        "Split nodes when they exceed capacity during insertion",
+        "Maintain balance by propagating splits up the tree",
+        "Search by following appropriate child based on key ranges"
+      ],
+      "B-Trees": [
+        "Apply B-tree patterns for database index implementations",
+        "Handle node splits and merges for maintaining balance"
+      ],
+      "Trie (Prefix Trees)": [
+        "Build trie for efficient string prefix matching",
+        "Use trie for autocomplete and dictionary word validation",
+        "Implement compressed trie for space optimization"
+      ]
+    },
+    "STL Containers": [
+      "Use set for unique elements with automatic sorting",
+      "Apply multiset when duplicates are allowed with ordering",
+      "Use map for key-value associations with ordered keys",
+      "Choose unordered_set/unordered_map for O(1) average access time"
+    ],
+    "Threaded Trees": [
+      "Use threading to eliminate null pointers for efficient traversal",
+      "Implement threaded tree for space-efficient inorder traversal",
+      "Handle threading in insertion and deletion operations"
+    ]
+  },
+  "Heaps and AVL Trees": {
+    "Heap Data Structure": {
+      "Heap Properties": [
+        "Maintain parent-child ordering in min/max heap during operations",
+        "Use array representation with index relationships: parent(i) = (i-1)/2"
+      ],
+      "Heap Operations": [
+        "Insert elements using bubble-up (heapify-up) to maintain heap property",
+        "Delete root using bubble-down (heapify-down) after replacing with last element",
+        "Build heap from array using bottom-up heapify for O(n) construction",
+        "Apply heapify operation for fixing heap property violations"
+      ],
+      "Heap Applications": [
+        "Implement priority queue using heap for efficient min/max access",
+        "Use heap sort for in-place O(n log n) sorting algorithm",
+        "Find running median using two heaps (max-heap and min-heap)",
+        "Solve k largest/smallest elements problems using heap of size k"
+      ]
+    },
+    "Priority Queues": [
+      "Use priority queue for Dijkstra's algorithm and other greedy algorithms",
+      "Apply priority queue in task scheduling with different priorities",
+      "Implement custom comparators for complex priority determination",
+      "Use priority queue for merge k sorted arrays/lists problems"
+    ],
+    "AVL Trees (Adelson-Velsky and Landis)": {
+      "Self-Balancing Concepts": [
+        "Maintain height balance property: |height(left) - height(right)| \u2264 1"
+      ],
+      "AVL Properties": [
+        "Calculate balance factor and detect imbalance during insertions/deletions"
+      ],
+      "Rotation Operations": [
+        "Apply single right rotation for Left-Left (LL) imbalance case",
+        "Use single left rotation for Right-Right (RR) imbalance case",
+        "Apply left-right rotation for Left-Right (LR) imbalance case",
+        "Use right-left rotation for Right-Left (RL) imbalance case"
+      ],
+      "AVL Operations": [
+        "Insert nodes and rebalance using appropriate rotations",
+        "Delete nodes handling rebalancing up the path to root",
+        "Update heights efficiently during rotations"
+      ],
+      "Comparisons": [
+        "Choose AVL for read-heavy applications due to stricter balancing",
+        "Use Red-Black trees for write-heavy applications due to fewer rotations"
+      ]
+    }
+  },
+  "Graphs": {
+    "Graph Fundamentals": {
+      "Graph Terminology": [
+        "Identify vertices (nodes) and edges (connections) in problem representation",
+        "Calculate vertex degree for undirected graphs and in/out-degree for directed",
+        "Recognize paths, cycles, and connectivity patterns in graph problems"
+      ],
+      "Graph Types": [
+        "Model relationships using directed graphs for one-way connections",
+        "Use weighted graphs for problems involving costs, distances, or capacities",
+        "Apply bipartite graphs for matching problems",
+        "Recognize DAGs (Directed Acyclic Graphs) for topological ordering problems"
+      ]
+    },
+    "Graph Representation": {
+      "Adjacency Matrix": [
+        "Use adjacency matrix for dense graphs and when edge existence queries are frequent",
+        "Apply matrix representation for weighted graphs storing edge weights",
+        "Use boolean matrix for unweighted graphs to save space"
+      ],
+      "Adjacency List": [
+        "Choose adjacency list for sparse graphs to save space",
+        "Use vector/list of vectors for dynamic graph modifications",
+        "Store edge weights along with destination vertices in weighted graphs"
+      ],
+      "Other Representations": [
+        "Use edge list for algorithms that process all edges (like Kruskal's MST)",
+        "Apply incidence matrix for hypergraphs or when vertex-edge relationships matter"
+      ]
+    },
+    "Graph Traversals": {
+      "Breadth-First Search (BFS)": [
+        "Use BFS for shortest path in unweighted graphs",
+        "Apply level-order traversal using queue data structure",
+        "Find connected components using BFS from unvisited vertices",
+        "Use BFS for bipartite graph detection with 2-coloring"
+      ],
+      "Depth-First Search (DFS)": [
+        "Apply DFS for topological sorting using post-order finishing times",
+        "Use DFS for cycle detection in directed and undirected graphs",
+        "Find strongly connected components using DFS-based algorithms",
+        "Apply DFS for path finding and maze solving problems",
+        "Use DFS timestamp for tree/back/forward/cross edge classification"
+      ]
+    },
+    "Minimum Spanning Tree (MST)": {
+      "MST Properties": [
+        "Apply cut property: minimum weight edge crossing any cut is in some MST",
+        "Use cycle property: maximum weight edge in any cycle is not in MST"
+      ],
+      "Prim's Algorithm": [
+        "Start from arbitrary vertex and grow MST by adding minimum weight edges",
+        "Use priority queue to efficiently find minimum weight edge crossing cut",
+        "Apply Prim's when graph is dense (many edges)"
+      ],
+      "Kruskal's Algorithm": [
+        "Sort all edges by weight and add edges that don't create cycles",
+        "Use Union-Find data structure for efficient cycle detection",
+        "Apply Kruskal's when graph is sparse (few edges)"
+      ],
+      "Applications": [
+        "Design minimum cost network connections",
+        "Apply MST for clustering by removing heaviest edges"
+      ]
+    },
+    "Shortest Path Algorithms": {
+      "Dijkstra's Algorithm": [
+        "Use Dijkstra for single-source shortest path with non-negative weights",
+        "Apply priority queue for efficient minimum distance vertex selection",
+        "Reconstruct paths using parent pointers during distance updates",
+        "Handle multiple shortest paths by storing predecessors"
+      ],
+      "Other Algorithms": [
+        "Use Bellman-Ford for graphs with negative weights and negative cycle detection",
+        "Apply Floyd-Warshall for all-pairs shortest paths in dense graphs",
+        "Use A* search with heuristics for pathfinding in games/maps"
+      ]
+    },
+    "Advanced Graph Algorithms": [
+      "Apply topological sort for dependency resolution and task scheduling",
+      "Use Kosaraju's or Tarjan's algorithm for finding strongly connected components",
+      "Find articulation points and bridges for network reliability analysis",
+      "Apply max flow algorithms for network capacity and matching problems",
+      "Use graph coloring for scheduling and register allocation problems"
+    ]
+  },
+  "Hashing": {
+    "Hash Function Design": {
+      "Hash Function Properties": [
+        "Design hash functions that distribute keys uniformly across hash table",
+        "Ensure deterministic behavior - same key always hashes to same value",
+        "Optimize hash computation for performance in time-critical applications"
+      ],
+      "Common Hash Functions": [
+        "Use division method h(k) = k mod m for simple integer keys",
+        "Apply multiplication method for better distribution properties",
+        "Use universal hashing to avoid worst-case performance guarantees",
+        "Apply cryptographic hash functions when security is required"
+      ],
+      "Hash Function Analysis": [
+        "Monitor load factor \u03b1 = n/m to maintain performance",
+        "Use techniques like double hashing to minimize clustering"
+      ]
+    },
+    "Collision Resolution Techniques": {
+      "Closed Hashing (Open Addressing)": {
+        "Linear Probing": [
+          "Probe sequentially: h(k,i) = (h(k) + i) mod m",
+          "Handle primary clustering by considering probe sequence length",
+          "Use tombstone markers for lazy deletion to maintain probe sequences"
+        ],
+        "Quadratic Probing": [
+          "Use quadratic function: h(k,i) = (h(k) + c1*i + c2*i\u00b2) mod m",
+          "Reduce secondary clustering compared to linear probing",
+          "Ensure table size is prime or power of 2 for full coverage"
+        ],
+        "Double Hashing": [
+          "Use second hash function: h(k,i) = (h1(k) + i*h2(k)) mod m",
+          "Generate different probe sequences for different keys",
+          "Ensure h2(k) is relatively prime to m for full table coverage"
+        ]
+      },
+      "Open Hashing (Separate Chaining)": {
+        "Chaining with Linked Lists": [
+          "Handle unlimited collisions by chaining elements in lists",
+          "Maintain good performance when load factor is reasonable",
+          "Use dynamic memory allocation for flexible table sizing"
+        ],
+        "Chaining Optimizations": [
+          "Use self-organizing lists (move-to-front) for frequently accessed items",
+          "Replace long chains with balanced BSTs when chain length exceeds threshold",
+          "Apply Robin Hood hashing to minimize variance in probe distances"
+        ]
+      }
+    },
+    "Hash Table Applications": [
+      "Implement symbol tables for compilers using hash tables for identifier lookup",
+      "Use hash tables for caching frequently accessed data with O(1) access",
+      "Apply hash indexing in databases for fast record retrieval",
+      "Use consistent hashing for distributed systems to handle node additions/removals",
+      "Implement set operations (union, intersection) using hash table membership testing",
+      "Apply hash tables for frequency counting and duplicate detection problems"
+    ],
+    "Advanced Hashing Concepts": [
+      "Use perfect hashing when key set is known and static",
+      "Apply Bloom filters for space-efficient probabilistic membership testing",
+      "Use cuckoo hashing for guaranteed O(1) worst-case lookup time",
+      "Apply consistent hashing for load balancing in distributed hash tables",
+      "Implement dynamic resizing with rehashing when load factor exceeds threshold"
+    ]
+  }
+}
